@@ -1,0 +1,29 @@
+
+body{
+    background-color: #164e63;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.active{
+    color:#b91c1c
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+.loading{
+    height: 0;
+    width: 0;
+    padding:7px;
+    border: 2px solid yellowgreen;
+    border-right-color: black;
+    border-radius: 22px;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    100%{
+        transform:rotate(360deg)
+    }
+}
